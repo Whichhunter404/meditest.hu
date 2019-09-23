@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap');
+/*
+Used colours in this project
+
+  #5680E9
+  #C1C8E4
+  #FFFFFF
+  #5AB9EA
+
+
+*/
+
+$color_one : #3170BE;
+$color_two : #F7F9FB;
+$color_three : #31708E;
+$default-font-size : 62.5%;
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: 'Lato', sans-serif;
+  background-image: linear-gradient(to right bottom, rgba($color_one,0.8),rgba($color_two,0.8)), url("../img/background.jpg");
+  background-size: cover;
+  filter: brightness(0.9);
+  color: $color_two;
+  font-size: $default-font-size;
+  font-weight: 400;
+  .container{
+    background-color: $color_one;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    min-width: 300px;
+  }
+  a{
+    text-decoration: none;
+    color: $color_two;
+  }
+}
+.nav_container{
+  padding: 2%;
+  display: flex;
+  margin-bottom: 2%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-items: center;
+  align-content: center;
+  .nav_container__company_name{
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 2rem;
+  }
+  .nav_container__sub_nav{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+  }
+}
+.our_services_boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .our_services_boxes__box{
+    position: relative;
+    width: 33.3%;
+    min-width: 300px;
+    overflow: hidden;
+    img{
+      width: 500px; //it will be always more than the with size
+      filter: brightness(60%);
+      transition: all 1s;
+      transform: scale(1);
+
+    }
+    img:hover{
+      filter:brightness(80%);
+      transform: scale(1.2);
+    }
+    .our_services_boxes__box__title{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      z-index: 9999;
+      color: $color_two;
+      text-transform: uppercase;
+      transition: all 0.5s;
+      &:hover{
+        border-bottom: 2px solid $color_two;
+      }
+    }
+  }
+}
+.achieved_result{
+  display: flex;
+  justify-content: space-between;
+  .achieved_result_logos {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+  }
+  .achieved_result_text{
+    width: 400px;
+    display: flex;
+    align-items: center;
+  }
+}
+.our_product_examine_boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  .our_product_examine_boxes__box{
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid dodgerblue;
+    .our_product_examine_boxes__box__content{
+      .our_product_examine_boxes__box__title{
+        font-size: 1.5rem;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .our_product_examine_boxes__box__desc{
+        padding: $default-font-size/4;
+        margin-top: 2%;
+        margin-bottom: 2%;
+      }
+      .our_product_examine_boxes__box__btn{
+        margin-top: 2%;
+        text-align: center;
+      }
+    }
+    &:hover{
+      box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
+    }
+  }
+}
+.our_services_more{
+  margin-top: 2%;
+  padding: 2%;
+  height: 5%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  img{
+    background-color: white;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100px;
+  }
+}
+.btn{
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  color: $color_two;
+  padding: 2% 4%;
+  margin: 1%;
+  background-color: $color_three;
+  border: 3px solid $color_two;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  vertical-align: center;
+  justify-content: center;
+  transition: background-color 0.5s;
+  &:hover{
+    background-color: darken($color_three,0.8);
+    border-bottom: 5px solid $color_one;
+  }
+}
