@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b70a09f0-52fe-492c-a3fc-adf331bd2673" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/smooth_scroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/base/base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/components/btn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/components/our_services_more" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/layout/achived_results" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/layout/contact_us" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/layout/find_us" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/layout/footer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/layout/our_examine_boxes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/layout/our_service_boxes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/pages/szolgaltatasok" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/meditest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/meditest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rolunk.html" beforeDir="false" afterPath="$PROJECT_DIR$/rolunk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szolgaltatasok.html" beforeDir="false" afterPath="$PROJECT_DIR$/szolgaltatasok.html" afterDir="false" />
-    </list>
+    <list default="true" id="b70a09f0-52fe-492c-a3fc-adf331bd2673" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +27,7 @@
           <entry key="css" value="2" />
           <entry key="find_us" value="1" />
           <entry key="footer" value="2" />
+          <entry key="gitignore" value="1" />
           <entry key="html" value="7" />
           <entry key="jpg" value="1" />
           <entry key="js" value="1" />
@@ -66,6 +46,7 @@
           <entry key="Image" value="1" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="14" />
         </counts>
       </usages-collector>
@@ -77,6 +58,7 @@
           <entry key="css" value="385" />
           <entry key="find_us" value="233" />
           <entry key="footer" value="71" />
+          <entry key="gitignore" value="12" />
           <entry key="html" value="3008" />
           <entry key="js" value="33" />
           <entry key="json" value="74" />
@@ -90,6 +72,7 @@
           <entry key="HTML" value="3008" />
           <entry key="JSON" value="74" />
           <entry key="JavaScript" value="33" />
+          <entry key="PLAIN_TEXT" value="12" />
           <entry key="SCSS" value="3234" />
         </counts>
       </usages-collector>
@@ -178,11 +161,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rolunk.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+            <state relative-caret-position="291">
+              <caret line="42" column="275" selection-start-line="42" selection-start-column="275" selection-end-line="42" selection-end-column="275" />
               <folding>
                 <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -192,11 +175,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/layout/find_us">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+            <state>
+              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -264,6 +247,7 @@
         <option value="$PROJECT_DIR$/szolgaltatasok.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/rolunk.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -379,17 +363,18 @@
       <workItem from="1568832673560" duration="2129000" />
       <workItem from="1568921465256" duration="551000" />
       <workItem from="1569042650095" duration="6863000" />
-      <workItem from="1569218521479" duration="16253000" />
+      <workItem from="1569218521479" duration="16486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25796000" />
+    <option name="totallyTimeSpent" value="26029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -402,7 +387,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -578,13 +563,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rolunk.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        <state relative-caret-position="291">
+          <caret line="42" column="275" selection-start-line="42" selection-start-column="275" selection-end-line="42" selection-end-column="275" />
           <folding>
             <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
