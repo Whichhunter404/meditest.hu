@@ -1,0 +1,49 @@
+.our_services_layout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .our_product_examine_boxes__box{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), lighten(rgba(0, 0, 0, 0.5),1.2)),
+     url("../img/services.jpg");
+  }
+  .our_services_layout__text{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .our_services_layout__logos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    .our_services_layout__logo{
+      background-color: darken($color_three,1.4);
+      border-radius: 50px;
+      border: 2px solid $color_two;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      width: 26%;
+      min-width: 250px;
+      .logo-title{
+        font-size: 1.5rem;
+        text-align: center;
+        padding-bottom: 2%;
+      }
+      img{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10%;
+      }
+    }
+  }
+  .our_product_examine_boxes__box{
+    margin: 2%;
+    width: 29%;
+  }
+  .our_services_layout__special_request{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

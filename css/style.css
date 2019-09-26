@@ -47,6 +47,36 @@ section {
   font-size: 1.2rem;
   text-align: center; }
 
+.page-title {
+  text-align: center;
+  font-size: 2rem;
+  border-bottom: 1px solid #F7F9FB;
+  padding-bottom: 1%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 2%; }
+
+input[type=text] {
+  font-size: 1rem;
+  width: 100%;
+  padding: 1%;
+  border-bottom: 2px solid white;
+  margin: 0.5%; }
+
+input[type=submit] {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); }
+
+textarea {
+  margin: 2%;
+  padding: 1%;
+  font-size: 1rem;
+  width: 100%; }
+
 .nav_container {
   padding: 2%;
   display: flex;
@@ -144,17 +174,27 @@ section {
     min-width: 300px;
     padding: 20px;
     border-radius: 10px;
-    border: 3px solid dodgerblue; }
-    .our_product_examine_boxes .our_product_examine_boxes__box .our_product_examine_boxes__box__content .our_product_examine_boxes__box__title {
-      font-size: 1.5rem;
-      text-align: center;
-      text-transform: uppercase; }
-    .our_product_examine_boxes .our_product_examine_boxes__box .our_product_examine_boxes__box__content .our_product_examine_boxes__box__desc {
-      margin-top: 2%;
-      margin-bottom: 2%; }
-    .our_product_examine_boxes .our_product_examine_boxes__box .our_product_examine_boxes__box__content .our_product_examine_boxes__box__btn {
-      margin-top: 2%;
+    border: 3px solid dodgerblue;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(3, 3, 3, 0.5)), url("../img/examine_1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .our_product_examine_boxes .our_product_examine_boxes__box .our_product_examine_boxes__box__content {
+      margin: 5%;
       text-align: center; }
+      .our_product_examine_boxes .our_product_examine_boxes__box .our_product_examine_boxes__box__content .our_product_examine_boxes__box__title {
+        font-size: 1.5rem;
+        text-align: center;
+        text-transform: uppercase; }
+      .our_product_examine_boxes .our_product_examine_boxes__box .our_product_examine_boxes__box__content .our_product_examine_boxes__box__desc {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding-top: 5%;
+        padding-bottom: 5%; }
+      .our_product_examine_boxes .our_product_examine_boxes__box .our_product_examine_boxes__box__content .our_product_examine_boxes__box__btn {
+        margin-top: 2%;
+        text-align: center; }
     .our_product_examine_boxes .our_product_examine_boxes__box:hover {
       box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
 
@@ -301,9 +341,45 @@ footer {
     footer .some_detail_about_the_kft a {
       display: block; }
 
-.our_services_layout .our_product_examine_boxes__box {
-  margin: 2%;
-  width: 29%; }
+.our_services_layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .our_services_layout .our_product_examine_boxes__box {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(3, 3, 3, 0.5)), url("../img/services.jpg"); }
+  .our_services_layout .our_services_layout__text {
+    font-size: 1.2rem;
+    text-align: center; }
+  .our_services_layout .our_services_layout__logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row; }
+    .our_services_layout .our_services_layout__logos .our_services_layout__logo {
+      background-color: #2f6c89;
+      border-radius: 50px;
+      border: 2px solid #F7F9FB;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      width: 26%;
+      min-width: 250px; }
+      .our_services_layout .our_services_layout__logos .our_services_layout__logo .logo-title {
+        font-size: 1.5rem;
+        text-align: center;
+        padding-bottom: 2%; }
+      .our_services_layout .our_services_layout__logos .our_services_layout__logo img {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10%; }
+  .our_services_layout .our_product_examine_boxes__box {
+    margin: 2%;
+    width: 29%; }
+  .our_services_layout .our_services_layout__special_request {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
 
 @media screen and (max-width: 600px) {
   .container {
