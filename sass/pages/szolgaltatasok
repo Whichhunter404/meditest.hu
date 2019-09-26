@@ -1,0 +1,6 @@
+.our_services_layout{
+  .our_product_examine_boxes__box{
+    margin: 2%;
+    width: 29%;
+  }
+}

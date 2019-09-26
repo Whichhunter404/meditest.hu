@@ -1,26 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <title>Meditest kft</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <div class="container">
     <nav>
         <div class="nav_container">
             <div class="nav_container__company_name">
-                <h1>Meditest</h1>
+                <img src="img/logo.jpg" alt="Meditest kft lógója" width="100%">
             </div>
             <div class="nav_container__sub_nav">
-                    <a href="" class="btn">Elérhetőség</a>
-                    <a href="" class="btn">Kapcsolat</a>
+                    <a href="#find_us_id" class="btn btn-ghost">Elérhetőség</a>
+                    <a href="#contact_us_id" class="btn btn-ghost">Kapcsolat</a>
             </div>
         </div>
     </nav>
     <section class="our_services_boxes">
         <div class="our_services_boxes__box">
-            <a href="">
+            <a href="szolgaltatasok.html">
                 <h1 class="our_services_boxes__box__title">Szolgáltatásaink</h1>
             </a>
             <img src="img/our_services_pic.jpg" alt="" width="100%">
@@ -32,7 +33,7 @@
             <img src="img/products_pic.jpg" alt="" width="100%">
         </div>
         <div class="our_services_boxes__box">
-            <a href="">
+            <a href="rolunk.html">
                 <h1 class="our_services_boxes__box__title">Rólunk</h1>
             </a>
             <img src="img/about_ours_pic.jpg" alt="" width="100%">
@@ -50,10 +51,23 @@
     <section class="our_product_examine_boxes">
         <div class="our_product_examine_boxes__box">
             <div class="our_product_examine_boxes__box__content">
-                <h2 class="our_product_examine_boxes__box__title">Mikro bevizsgálás</h2>
+                <h2 class="our_product_examine_boxes__box__title">Bevizsgálás</h2>
                 <hr>
                 <div class="our_product_examine_boxes__box__desc">
-                    Nagyszerű bevizsgálásokat csinálunk fasdéfkj saédfkj sdéfkjs dfdaéskj
+                    Nagyfrekvenciás sebészeti vágókészülékek
+                </div>
+                <hr>
+                <div class="our_product_examine_boxes__box__btn">
+                    <a href="szolgaltatasok.html/#malac" class="btn">Érdekel</a>
+                </div>
+            </div>
+        </div>
+        <div class="our_product_examine_boxes__box">
+            <div class="our_product_examine_boxes__box__content">
+                <h2 class="our_product_examine_boxes__box__title">Bevizsgálás</h2>
+                <hr>
+                <div class="our_product_examine_boxes__box__desc">
+                    Inkubátorok bevizsgálás
                 </div>
                 <hr>
                 <div class="our_product_examine_boxes__box__btn">
@@ -63,22 +77,10 @@
         </div>
         <div class="our_product_examine_boxes__box">
             <div class="our_product_examine_boxes__box__content">
-                <h2 class="our_product_examine_boxes__box__title">Mikro bevizsgálás</h2>
+                <h2 class="our_product_examine_boxes__box__title">Bevizsgálás</h2>
                 <hr>
                 <div class="our_product_examine_boxes__box__desc">
-                    Nagyszerű bevizsgálásokat csinálunk fasdéfkj saédfkj sdéfkjs dfdaéskj                 </div>
-                <hr>
-                <div class="our_product_examine_boxes__box__btn">
-                    <a href="" class="btn">Érdekel</a>
-                </div>
-            </div>
-        </div>
-        <div class="our_product_examine_boxes__box">
-            <div class="our_product_examine_boxes__box__content">
-                <h2 class="our_product_examine_boxes__box__title">Mikro bevizsgálás</h2>
-                <hr>
-                <div class="our_product_examine_boxes__box__desc">
-                    Nagyszerű bevizsgálásokat csinálunk fasdéfkj saédfkj sdéfkjs dfdaéskj
+                    Defibrillátor bevizsgálás
                 </div>
                 <hr>
                 <div class="our_product_examine_boxes__box__btn">
@@ -89,31 +91,73 @@
     </section>
     <section class="our_services_more">
         <div class="our_services_more_img">
-            <a href="">
+            <a href="szolgaltatasok.html">
                 <img src="img/more_btn.svg" alt="Több gomb" width="25px">
             </a>
         </div>
     </section>
-    <section class="contact_us">
+    <section class="contact_us" id="contact_us_id">
         <div class="contact_us__title">
-
+            <h1>Kapcsolat</h1>
         </div>
         <div class="contact_us__static_addresses">
-
+            <h3>E-mail címeink</h3>
+            <ul>
+                <li>
+                    schmidt.peti32@gmail.com
+                </li>
+            </ul>
+            <h3>Telefonszámok</h3>
+            <ul>
+                <li>
+                    06705538047
+                </li>
+            </ul>
         </div>
-        <div class="contact_us__contact_form">
-
-        </div>
+            <form action="" class="contact_us__contact_form">
+                <label for="contact_name">Név:</label>
+                <input type="text" id="contact_name" placeholder="Név">
+                <label for="contact_email">Email cím:</label>
+                <input type="text" id="contact_email" placeholder="E-mail cím">
+                <label for="contact_textarea">Üzenet:</label>
+                <textarea name="" id="contact_textarea" cols="30" rows="10" placeholder="Üzenet"></textarea>
+                <input type="submit" value="Elküldés" class="btn">
+            </form>
     </section>
-    <section class="find_us">
-        <div class="find_us__address">
-
+    <section class="find_us" id="find_us_id">
+        <div class="find_us__title">
+            <h1>Elérhetőség</h1>
         </div>
         <div class="find_us__open_table">
-
+            <div class="find_us__open_table_row">
+                <div class="find_us__open_table__column" style="width: 100%">
+                    <h2 class="title">Nyitvatartás</h2>
+                </div>
+            </div>
+            <div class="find_us__open_table__row">
+                <div class="find_us__open_table__column">
+                    Hétfő
+                </div>
+                <div class="find_us__open_table__column">
+                    10:00-16:00
+                </div>
+            </div>
+            <div class="find_us__open_table__row">
+                <div class="find_us__open_table__column">
+                    Kedd
+                </div>
+                <div class="find_us__open_table__column">
+                    10:00-18:00
+                </div>
+            </div>
+        </div>
+        <div class="find_us__address">
+            <h1 class="title" style="text-align: center">Címünk</h1>
+            <h3 class="title_second" style="text-align: center">1151 Budapest, Szövőgyár u. 1a</h3>
         </div>
         <div class="find_us__google_map">
-
+            <div class="title">Térkép</div>
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=meditest%20kft.&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.utilitysavingexpert.com">Utility Saving Expert</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
         </div>
         <div class="find_us__map_extra_info">
 
@@ -121,11 +165,17 @@
     </section>
     <footer>
         <div class="our_rate">
-
+            2019 nocopyright Medites.kft <br />
+            30 éve az egészségügyben!
         </div>
         <div class="some_detail_about_the_kft">
-
+                    <a href="">Termékek</a>
+                    <a href="">Főoldal</a>
+                    <a href="">Szolgáltatások</a>
+                    <a href="">Facebook oldaunk</a>
         </div>
+        <script type="text/javascript" src="javascript/smooth_scroll.js"></script>
+
     </footer>
 </div>
 </body>

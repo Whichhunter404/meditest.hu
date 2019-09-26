@@ -1,0 +1,22 @@
+footer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  .our_rate{
+    width: 46%;
+    min-width: 200px;
+    text-align: left;
+    margin: 2%;
+  }
+  .some_detail_about_the_kft{
+    margin: 2%;
+    width: 46%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+      a{
+        display: block;
+      }
+  }
+}

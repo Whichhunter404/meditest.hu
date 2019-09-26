@@ -1,0 +1,26 @@
+.achieved_result{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .achieved_result_logos {
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    min-width: 300px;
+    img:not(:nth-child(2)){
+      margin: 1%;
+    }
+    img:nth-child(2){
+      margin-top: 1%;
+      margin-left: 1%;
+      margin-bottom: 1%;
+    }
+  }
+  .achieved_result_text{
+    width: 30%;
+    font-size: 2rem;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+  }
+}

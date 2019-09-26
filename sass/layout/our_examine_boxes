@@ -1,0 +1,32 @@
+.our_product_examine_boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  .our_product_examine_boxes__box{
+    cursor: pointer;
+    font-size: 1rem;
+    width: 30%;
+    min-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid dodgerblue;
+    .our_product_examine_boxes__box__content{
+      .our_product_examine_boxes__box__title{
+        font-size: 1.5rem;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .our_product_examine_boxes__box__desc{
+        margin-top: 2%;
+        margin-bottom: 2%;
+      }
+      .our_product_examine_boxes__box__btn{
+        margin-top: 2%;
+        text-align: center;
+      }
+    }
+    &:hover{
+      box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
+    }
+  }
+}
