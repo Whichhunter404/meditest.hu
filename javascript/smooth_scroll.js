@@ -1,4 +1,4 @@
-function doseomthing() {
+function enable_smooth_scrolling() {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
@@ -9,4 +9,4 @@ function doseomthing() {
         });
     });
 }
-doseomthing();
+enable_smooth_scrolling();

@@ -52,7 +52,7 @@ input[type=text]{
   width: 100%;
   padding: 1%;
   border-bottom: 2px solid white;
-  margin: 0.5%;
+  margin: 2% !important;
 }
 input[type=submit]{
   display: flex;
@@ -67,4 +67,27 @@ textarea{
   padding: 1%;
   font-size: 1rem;
   width: 100%;
+}
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2%;
+  .list-item{
+    padding: 0.5%;
+    text-align: center;
+
+  }
+  .list-item:before{
+    content: "- ";
+  }
+}
+.link{
+  color: darken($color_two,1.5);
+}
+.link:hover{
+  text-decoration: underline;
+  color: darken($color_two,2);
 }

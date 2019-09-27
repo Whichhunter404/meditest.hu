@@ -1,0 +1,34 @@
+.about_us{
+  .first_paragh{
+    font-size: 1rem;
+    padding: 2%;
+
+  }
+  .about_us__desc{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    img{
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 3%;
+      margin-bottom: 3%;
+    }
+    img:first-child{
+      width: auto;
+    }
+  }
+  .second_paragh{
+    font-size: 1rem;
+    padding: 2%;
+  }
+  .thrid_paragh{
+    font-size: 1rem;
+    padding: 2%;
+    margin-bottom: 4%;
+  }
+}
