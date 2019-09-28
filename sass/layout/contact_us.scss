@@ -2,7 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: $color_three;
+  background-image: linear-gradient(to right bottom, rgba($color_three,0.7),rgba($color_three,0.7)), url("../img/contact_us.jpg");
+  background-attachment: fixed;
   padding: 1%;
   border-radius: 10px;
   .contact_us__title{
@@ -19,6 +20,7 @@
   }
 }
 .contact_us__contact_form{
+  padding: 2%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -44,6 +46,10 @@
     padding: 1%;
     font-size: 1rem;
     width: 100%;
+    resize: none;
+  }
+  textarea:focus{
+    border: 1px solid blueviolet;
   }
 }
 

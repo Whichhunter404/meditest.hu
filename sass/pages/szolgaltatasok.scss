@@ -49,4 +49,8 @@
     flex-direction: column;
     justify-content: center;
   }
+  .contact_us__contact_form{
+    background-image: linear-gradient(to right bottom, rgba($color_three,0.5),rgba($color_three,0.5)), url("../img/szolgaltatasok_contact_img.jpg");
+    background-attachment: fixed;
+  }
 }

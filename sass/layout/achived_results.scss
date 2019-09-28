@@ -4,8 +4,8 @@
   flex-wrap: wrap;
   .achieved_result_logos {
     display: flex;
-    justify-content: flex-end;
-    width: 70%;
+    justify-content: center;
+    width: 100%;
     min-width: 300px;
     img:not(:nth-child(2)){
       margin: 1%;
@@ -17,8 +17,10 @@
     }
   }
   .achieved_result_text{
-    width: 30%;
-    font-size: 2rem;
+    width: 100%;
+    font-size: 1.4rem;
+    text-align: center;
+    font-style: italic;
     min-width: 300px;
     display: flex;
     align-items: center;

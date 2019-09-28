@@ -14,15 +14,16 @@
   text-align: center;
   transition: background-color, border 1s;
   &:hover{
-    background-color: lighten($color_three,1.7);
-    border: 1px solid darken($color_two,1.5);
+    background-color: lighten($color_three,10%);
+    border: 1px solid darken($color_two,10%);
   }
 }
 .btn-ghost{
   background-color: transparent;
-  border: 1px solid darken($color_two,1.5);
+  border: 1px solid darken($color_two,10%);
+  padding: 2% 4%;
   transition: all 1s;
   &:hover{
-    background-color: lighten($color_three,1.7);
+    background-color: lighten($color_three,10%);
   }
 }

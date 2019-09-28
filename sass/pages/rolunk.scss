@@ -2,13 +2,6 @@
   .first_paragh{
     font-size: 1rem;
     padding: 2%;
-
-  }
-  .about_us__desc{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
     img{
       width: 30%;
       display: flex;
@@ -21,14 +14,54 @@
     img:first-child{
       width: auto;
     }
+    margin-bottom: 5%;
+  }
+  .about_us__workers{
+    font-size: 1.2rem;
+    margin: auto;
+    padding: 2%;
+  }
+  .about_us__desc{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
   }
   .second_paragh{
     font-size: 1rem;
     padding: 2%;
+    img{
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 3%;
+      margin-bottom: 3%;
+    }
+    img:first-child{
+      width: auto;
+    }
+    margin-bottom: 5%;
+    background-image: linear-gradient(to right bottom, rgba($color_three,0.8),rgba($color_three,0.8)), url("../img/rolunk_img.jpg");
+    background-attachment: fixed;
   }
   .thrid_paragh{
     font-size: 1rem;
     padding: 2%;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
+    img{
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 3%;
+      margin-bottom: 3%;
+    }
+    img:first-child{
+      width: auto;
+    }
+    background-color: darken($color_one,5%);
   }
 }
