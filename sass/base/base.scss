@@ -3,6 +3,9 @@
   margin: 0px;
   padding: 0px;
 }
+html{
+  background-color: $color_one;
+}
 body{
   font-family: 'Roboto', sans-serif;
   background-image: linear-gradient(to right bottom, rgba($color_one,0.8),rgba($color_two,0.8)), url("../img/background.jpg");
@@ -89,5 +92,5 @@ textarea{
 }
 .link:hover{
   text-decoration: underline;
-  color: darken($color_two,2);
+  color: darken($color_two,20%);
 }

@@ -11,11 +11,16 @@
     <nav>
         <div class="nav_container">
             <div class="nav_container__company_name">
-                <img src="img/logo.jpg" alt="Meditest kft lógója" width="100%">
+                <a href="index.html"><img src="img/logo.jpg" alt="Meditest kft lógója" width="100%"></a>
             </div>
             <div class="nav_container__sub_nav">
-                <a href="#find_us_id" class="btn btn-ghost">Elérhetőség</a>
-                <a href="#contact_us_id" class="btn btn-ghost">Kapcsolat</a>
+                <div class="nav_container__sub_nav__links">
+                    <a href="index.html" class="btn btn-ghost main-page">Főoldal</a>
+                </div>
+                <div class="nav_container__sub_nav__connection">
+                    <h2>Telefon: 06 30 650 5616</h2>
+                    <h2>E-mail cím: <a href="mailto:meditest@t-online.hu" class="link">meditest@t-online.hu</a></h2>
+                </div>
             </div>
         </div>
     </nav>
@@ -262,28 +267,43 @@
                             </div>
                         </div>
                     </section>
-                    <form class="contact_us__contact_form" action="" id="bevizsgalas">
-                        <label for="nev">Név:</label>
-                        <input type="text" id="nev" placeholder="Név">
-                        <label for="">E-mail cím:</label>
-                        <input type="text" placeholder="E-mail cím">
-                        <label for="">Milyen bevizsgálás:</label>
-                        <input type="text" placeholder="Megjegyzés" id="bevizsgalas_type">
-                        <label for="">Megjegyzés:</label>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Megjegyzés"></textarea>
-                    </form>
+                    <section class="contact_us__contact_form" id="bevizsgalas">
+                        <div class="contact_us__static_addresses">
+                            <h3>E-mail címeink</h3>
+                            <div class="list">
+                                <div class="list-item">
+                                    <a href="mailto:meditest.kft@t-online.hu?Subject=Erdeklodes" class="link" target="_top">
+                                        meditest.kft@t-online.hu
+                                    </a>
+                                </div>
+                                <div class="list-item">
+                                    <a href="mailto:otto.schmidt@meditest.hu?Subject=Erdeklodes" class="link" target="_top">
+                                        otto.schmidt@meditest.hu
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>Telefonszámaink</h3>
+                            <div class="list">
+                                <div class="list-item">
+                                    06 1 280-6513
+                                </div>
+                                <div class="list-item">
+                                    06 30 650-5616
+                                </div>
+                            </div>
+                        </div>
+                    </section>
         </section>
-    <section id="malac"></section>
     <footer>
         <div class="our_rate">
-            2019 nocopyright Medites.kft <br />
-            30 éve az egészségügyben!
+            30 éve az egészségügyben!<br />
+            Copyright 2019 - Meditest Kft. Minden jog fentartva.
         </div>
         <div class="some_detail_about_the_kft">
-            <a href="">Termékek</a>
-            <a href="">Főoldal</a>
-            <a href="">Szolgáltatások</a>
-            <a href="">Facebook oldaunk</a>
+            <a href="index.html" class="link">Főoldal</a>
+            <a href="szolgaltatasok.html" class="link">Szolgáltatások</a>
+            <a href="termekek.html" class="link">Termékek</a>
+            <a href="" class="link">Facebook oldalunk</a>
         </div>
         <script type="text/javascript" src="javascript/smooth_scroll.js"></script>
         <script type="text/javascript" src="javascript/script.js"></script>

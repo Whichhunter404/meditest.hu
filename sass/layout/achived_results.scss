@@ -5,6 +5,7 @@
   .achieved_result_logos {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
     min-width: 300px;
     img:not(:nth-child(2)){
@@ -21,8 +22,10 @@
     font-size: 1.4rem;
     text-align: center;
     font-style: italic;
+    text-decoration: underline;
     min-width: 300px;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 }

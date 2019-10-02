@@ -4,3 +4,14 @@ const szolgaltatas = (erdekel_btn) =>{
     text_field.value = data;
 
 };
+
+const toggle_id = (id) =>{
+    const toggle_div = document.getElementById(id);
+    toggle_div.style.transition = "all 1s";
+    if(toggle_div.style.display==="none"){
+        toggle_div.style.display = "inherit";
+    }
+    else{
+        toggle_div.style.display = "none";
+    }
+};

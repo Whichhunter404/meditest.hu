@@ -42,9 +42,10 @@
     img:first-child{
       width: auto;
     }
-    margin-bottom: 5%;
-    background-image: linear-gradient(to right bottom, rgba($color_three,0.8),rgba($color_three,0.8)), url("../img/rolunk_img.jpg");
+    background-image: linear-gradient(to right bottom, rgba($color_three,0.7),rgba($color_three,0.7)), url("../img/rolunk_img.jpg");
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
   }
   .thrid_paragh{
     font-size: 1rem;

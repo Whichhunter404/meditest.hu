@@ -3,11 +3,16 @@ footer{
   justify-content: space-between;
   flex-wrap: wrap;
   font-size: 1rem;
+  background-color: darken($color_one,15%);
   .our_rate{
     width: 46%;
     min-width: 200px;
     text-align: left;
     margin: 2%;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    display: flex;
   }
   .some_detail_about_the_kft{
     margin: 2%;

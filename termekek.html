@@ -1,10 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Meditest kft</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+<div class="container">
+    <nav>
+        <div class="nav_container">
+            <div class="nav_container__company_name">
+                <a href="index.html"><img src="img/logo.jpg" alt="Meditest kft lógója" width="100%"></a>
+            </div>
+            <div class="nav_container__sub_nav">
+                <div class="nav_container__sub_nav__links">
+                    <a href="index.html" class="btn btn-ghost main-page">Főoldal</a>
+                </div>
+                <div class="nav_container__sub_nav__connection">
+                    <h2>Telefon: 06 30 650 5616</h2>
+                    <h2>E-mail cím: <a href="mailto:meditest@t-online.hu" class="link">meditest@t-online.hu</a></h2>
+                </div>
+            </div>
+        </div>
+    </nav>
 
+    <section class="products_layout">
+        <h1 class="page-title">Meditest Kft. termékek</h1>
+        <div class="products_layout__items">
+            <div class="products_layouts__items__item">
+                <div class="products_layouts__items__item__content">
+                    <img src="img/termekek/szovetbeagyazo.jpg" alt="Szovegbeagyazo berendezés" width="50%">
+                    <div class="products_layouts__items__item__box">
+                        <h1>Mikrohullámú szövetbeágyazó készülék <br />
+                            MFX-800/3A</h1>
+                        <button onclick="toggle_id('product_1')" class="btn btn-ghost">Több</button>
+                    </div>
+                </div>
+                <div class="products_layouts__items__item__info" id="product_1" style="display: none;">
+                    <h1>Mikrohullámú feltáró készülék (DIG-MED)</h1>
+                    <img src="img/termekek/szovegbeagyazo_big.jpg" alt="Szovegbeagyazo nagy kep" width="100%">
+                    <img src="img/termekek/mikro_beagyazo_2.jpg" alt="Szovegbeagyazo nagy kep" width="100%">
+                    <img src="img/termekek/mikro_beagyazo_3.jpg" alt="Szovegbeagyazo nagy kep" width="100%">
+                    <img src="img/termekek/mikro_beagyazo_4.jpg" alt="Szovegbeagyazo nagy kep" width="100%">
+                    <a href="#erdekel_box" class="btn">Érdekel</a>
+                </div>
+            </div>
+            <div class="products_layouts__items__item">
+                <div class="products_layouts__items__item__content">
+                    <img src="img/termekek/feltaro_nagy.jpg" alt="Feltaro berendezés" width="50%">
+                    <div class="products_layouts__items__item__box">
+                        <h1>Mikrohullámú feltáró készülék <br />
+                            DIG-MED</h1>
+                        <button onclick="toggle_id('product_2')" class="btn btn-ghost">Több</button>
+                    </div>
+                </div>
+                <div class="products_layouts__items__item__info" id="product_2" style="display: none;">
+                    <img src="img/termekek/feltaro_nagy.jpg" alt="Feltaro nagy kep" width="100%">
+                    <h1>Mikrohullámú feltáró készülék (DIG-MED)</h1>
+                    <p>
+                        A kémiai elemi összetétel meghatározására szolgáló módszerek alkalmazásához általában szükség van a minta feloldására. Különösen fontos ez olyan esetekben, amikor az elemzéshez szükséges standard minták nem állnak rendelkezésre, vagy nem is állíthatók elő mesterségesen. Kőzetek, talajok, biológiai és élelmiszer minták vizsgálatakor gyakran az oldatba vitel jelenti az egyedül lehetséges útját a megbízható elemzésnek. Oldatok elemi összetételének meghatározására az analitikai atomspektroszkópia módszereinek széles skálája áll rendelkezésre monoelemes (atomabszorpciós technikák) és sokelemes (plazmaemissziós technikák) változatokban. E nagy teljesítőképességű módszerek alkalmazásának előfeltétele a hatékony minta-előkészítés, a minták gyors és kontamináció mentes feltárása.
+                        <br />
+                        <br />
+                        Szervesanyag tartalmú minták feltárásának hagyományos módja a roncsolás oxidatív tömény savakban (savkeverékekben) magas hőmérsékleten. A nyitott edényekben végzett roncsolásnál mindig fennáll a kontamináció és az anyagvesztés veszélye. Zárt teflonedényeket nyomástartó acélköpenybe hevítve, már hosszabb ideje alkalmaznak ilyen célra. Ezek kezelése azonban nehézkes és nagy mintasorozatok feltárására nem alkalmasak.
+                        <br />
+                        <br />
+                        A mikrohullámú berendezés egyedülálló specialitása, hogy a feltárást vízhűtéssel biztosítja, így lehetővé vált, hogy a feltárás alacsony nyomáson történjen. A feltárandó anyag mennyisége 0,5 és 1 g között lehet, a feltárási idő 10 -25 perc között van.
+                    </p>
+                    <a href="#erdekel_box" class="btn">Érdekel</a>
+                </div>
+            </div>
+            <div class="products_layouts__items__item">
+                <div class="products_layouts__items__item__content">
+                    <img src="img/termekek/szariton_nagy.jpg" alt="Szarito berendezés" width="50%">
+                    <div class="products_layouts__items__item__box">
+                        <h1>Mikrohullámú szárító készülék <br />
+                            MVM-6</h1>
+                        <button onclick="toggle_id('product_3')" class="btn btn-ghost">Több</button>
+                    </div>
+                </div>
+                <div class="products_layouts__items__item__info" id="product_3" style="display: none;">
+                    <img src="img/termekek/szariton_nagy.jpg" alt="Szarito nagy kep" width="100%">
+                    <h1>Mikrohullámú szárító készülék (MVM-6)</h1>
+                    <p>
+                        A berendezést laboratóriumi célokra használják nedvesség meghatározás elengedhetetlen kiegészítő eszközeként.
+                        <br />
+                        <br />
+                        Az itt látható készülék alkalmas minták tömegveszteségének közvetett, analitikai mérleggel összekapcsolt gyors meghatározására. A készülék a szárítás után mikrohullámú elektromágneses molekuláris gerjesztő hatásának és a légritkított térben vizsgált minta anyagi tulajdonságainak kölcsönhatását optimalizálja. Az automatizált szárítási művelet a klasszikus szárítókészülékkel és eljárással szemben tízszer gyorsabban teszi lehetővé az eredményekhez való hozzáférést.
+                        <br />
+                        <br />
+                        A készüléket a következő területeken használják: húsipari-, cukoripari-, édesipari-, szeszipari-, sütőipari-, tejipari-, baromfiipari-, dohányipari laboratóriumok, nemzetközi minőségellenőrzés.
+                    </p>
+                    <a href="#erdekel_box" class="btn">Érdekel</a>
+                </div>
+            </div>
+            <div class="products_layouts__items__item interested_in_box">
+                <div class="contact_us__static_addresses" id="erdekel_box">
+                    <h3>E-mail címeink</h3>
+                    <div class="list">
+                        <div class="list-item">
+                            <a href="mailto:meditest.kft@t-online.hu?Subject=Erdeklodes" class="link" target="_top">
+                                meditest.kft@t-online.hu
+                            </a>
+                        </div>
+                        <div class="list-item">
+                            <a href="mailto:otto.schmidt@meditest.hu?Subject=Erdeklodes" class="link" target="_top">
+                                otto.schmidt@meditest.hu
+                            </a>
+                        </div>
+                    </div>
+                    <h3>Telefonszámaink</h3>
+                    <div class="list">
+                        <div class="list-item">
+                            06 1 280-6513
+                        </div>
+                        <div class="list-item">
+                            06 30 650-5616
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="our_rate">
+            30 éve az egészségügyben!<br />
+            Copyright 2019 - Meditest Kft. Minden jog fentartva.
+        </div>
+        <div class="some_detail_about_the_kft">
+            <a href="index.html" class="link">Főoldal</a>
+            <a href="szolgaltatasok.html" class="link">Szolgáltatások</a>
+            <a href="termekek.html" class="link">Termékek</a>
+            <a href="" class="link">Facebook oldalunk</a>
+        </div>
+        <script type="text/javascript" src="javascript/smooth_scroll.js"></script>
+        <script type="text/javascript" src="javascript/script.js"></script>
+    </footer>
+</div>
 </body>
 </html>
