@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px) {
+  .nav_container{
+    justify-content: center;
+  }
+  .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0%;
+  }
+  .our_services_boxes__box{
+    width: 100% !important;
+  }
+  .find_us__google_map{
+    overflow: scroll;
+    max-width: 300px;
+    max-height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .products_layouts__items__item__info{
+    width: 100% !important;
+  }
+
+}
