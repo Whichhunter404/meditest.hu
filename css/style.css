@@ -100,6 +100,14 @@ textarea {
   text-decoration: underline;
   color: #b3c6d9; }
 
+.about_us__title {
+  font-size: 2rem; }
+
+.about_us__desc {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  text-align: justify; }
+
 .nav_container {
   background-color: #173442;
   padding: 2%;
@@ -280,6 +288,8 @@ textarea {
 .find_us {
   display: flex;
   justify-content: center;
+  align-content: center;
+  align-items: center;
   width: 100%;
   flex-direction: column; }
   .find_us .find_us__open_table {
@@ -600,11 +610,3 @@ footer {
     justify-content: center; }
   .products_layouts__items__item__info {
     width: 100% !important; } }
-
-.about_us__title {
-  font-size: 2rem; }
-
-.about_us__desc {
-  font-size: 1rem;
-  line-height: 1.3rem;
-  text-align: justify; }
