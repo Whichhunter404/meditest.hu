@@ -5,17 +5,60 @@
     <title>Meditest kft</title>
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="javascript/smooth_scroll.js">
+        function enable_smooth_scrolling() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        }
+        enable_smooth_scrolling();
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149482020-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-149482020-1');
+    </script>
+
+    <script type="text/javascript" src="javascript/script.js">
+        function szolgaltatas(erdekel_btn){
+            const data = erdekel_btn.getAttribute("data");
+            const text_field = document.getElementById("bevizsgalas_type");
+            text_field.value = data;
+
+        };
+
+        function toggle_id(id){
+            const toggle_div = document.getElementById(id);
+            toggle_div.style.transition = "all 1s";
+            if(toggle_div.style.display==="none"){
+                toggle_div.style.display = "inherit";
+            }
+            else{
+                toggle_div.style.display = "none";
+            }
+        };
+    </script>
 </head>
 <body>
 <div class="container">
     <nav>
         <div class="nav_container">
             <div class="nav_container__company_name">
-                <a href="index.html"><img src="img/logo.jpg" alt="Meditest kft lógója" width="100%"></a>
+                <a href="../../Desktop/index.html"><img src="img/logo.jpg" alt="Meditest kft lógója" width="100%"></a>
             </div>
             <div class="nav_container__sub_nav">
                 <div class="nav_container__sub_nav__links">
-                    <a href="index.html" class="btn btn-ghost main-page">Főoldal</a>
+                    <a href="../../Desktop/index.html" class="btn btn-ghost main-page">Főoldal</a>
                 </div>
                 <div class="nav_container__sub_nav__connection">
                     <h2>Telefon: 06 30 650 5616</h2>
@@ -34,10 +77,9 @@
                     <div class="products_layouts__items__item__box">
                         <h1>Mikrohullámú szövetbeágyazó készülék <br />
                             MFX-800/3A</h1>
-                        <button onclick="toggle_id('product_1')" class="btn btn-ghost">Több</button>
                     </div>
                 </div>
-                <div class="products_layouts__items__item__info" id="product_1" style="display: none;">
+                <div class="products_layouts__items__item__info" id="product_1" style="display: inherit;">
                     <h1>Mikrohullámú feltáró készülék (DIG-MED)</h1>
                     <img src="img/termekek/szovegbeagyazo_big.jpg" alt="Szovegbeagyazo nagy kep" width="100%">
                     <img src="img/termekek/mikro_beagyazo_2.jpg" alt="Szovegbeagyazo nagy kep" width="100%">
@@ -52,10 +94,9 @@
                     <div class="products_layouts__items__item__box">
                         <h1>Mikrohullámú feltáró készülék <br />
                             DIG-MED</h1>
-                        <button onclick="toggle_id('product_2')" class="btn btn-ghost">Több</button>
                     </div>
                 </div>
-                <div class="products_layouts__items__item__info" id="product_2" style="display: none;">
+                <div class="products_layouts__items__item__info" id="product_2" style="display: inherit;">
                     <img src="img/termekek/feltaro_nagy.jpg" alt="Feltaro nagy kep" width="100%">
                     <h1>Mikrohullámú feltáró készülék (DIG-MED)</h1>
                     <p>
@@ -76,10 +117,9 @@
                     <div class="products_layouts__items__item__box">
                         <h1>Mikrohullámú szárító készülék <br />
                             MVM-6</h1>
-                        <button onclick="toggle_id('product_3')" class="btn btn-ghost">Több</button>
                     </div>
                 </div>
-                <div class="products_layouts__items__item__info" id="product_3" style="display: none;">
+                <div class="products_layouts__items__item__info" id="product_3" style="display: inherit;">
                     <img src="img/termekek/szariton_nagy.jpg" alt="Szarito nagy kep" width="100%">
                     <h1>Mikrohullámú szárító készülék (MVM-6)</h1>
                     <p>
@@ -128,13 +168,44 @@
             Copyright 2019 - Meditest Kft. Minden jog fentartva.
         </div>
         <div class="some_detail_about_the_kft">
-            <a href="index.html" class="link">Főoldal</a>
+            <a href="../../Desktop/index.html" class="link">Főoldal</a>
             <a href="szolgaltatasok.html" class="link">Szolgáltatások</a>
             <a href="termekek.html" class="link">Termékek</a>
             <a href="" class="link">Facebook oldalunk</a>
         </div>
-        <script type="text/javascript" src="javascript/smooth_scroll.js"></script>
-        <script type="text/javascript" src="javascript/script.js"></script>
+        <script type="text/javascript" src="javascript/smooth_scroll.js">
+            function enable_smooth_scrolling() {
+                document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                    anchor.addEventListener('click', function (e) {
+                        e.preventDefault();
+
+                        document.querySelector(this.getAttribute('href')).scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    });
+                });
+            }
+            enable_smooth_scrolling();
+        </script>
+        <script type="text/javascript" src="javascript/script.js">
+            function szolgaltatas(erdekel_btn){
+                const data = erdekel_btn.getAttribute("data");
+                const text_field = document.getElementById("bevizsgalas_type");
+                text_field.value = data;
+
+            };
+
+            function toggle_id(id){
+                const toggle_div = document.getElementById(id);
+                toggle_div.style.transition = "all 1s";
+                if(toggle_div.style.display==="none"){
+                    toggle_div.style.display = "inherit";
+                }
+                else{
+                    toggle_div.style.display = "none";
+                }
+            };
+        </script>
     </footer>
 </div>
 </body>

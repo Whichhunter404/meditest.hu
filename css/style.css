@@ -91,7 +91,7 @@ textarea {
     padding: 0.5%;
     text-align: center; }
   .list .list-item:before {
-    content: "- "; }
+    content: ""; }
 
 .link {
   color: #f2f5f8; }
@@ -454,6 +454,9 @@ footer {
     background-image: linear-gradient(to right bottom, rgba(49, 112, 142, 0.5), rgba(49, 112, 142, 0.5)), url("../img/szolgaltatasok_contact_img.jpg");
     background-attachment: fixed; }
 
+.about_us img {
+  overflow: scroll; }
+
 .about_us .first_paragh {
   font-size: 1rem;
   padding: 2%;
@@ -611,4 +614,6 @@ footer {
     margin-left: auto;
     margin-right: auto; }
   .products_layouts__items__item__info {
+    width: 100% !important; }
+  .about_us img {
     width: 100% !important; } }

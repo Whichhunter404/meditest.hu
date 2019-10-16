@@ -5,6 +5,49 @@
     <title>Meditest kft</title>
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="javascript/smooth_scroll.js">
+        function enable_smooth_scrolling() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        }
+        enable_smooth_scrolling();
+    </script>
+    <script type="text/javascript" src="javascript/script.js">
+        function szolgaltatas(erdekel_btn){
+            const data = erdekel_btn.getAttribute("data");
+            const text_field = document.getElementById("bevizsgalas_type");
+            text_field.value = data;
+
+        };
+
+        function toggle_id(id){
+            const toggle_div = document.getElementById(id);
+            toggle_div.style.transition = "all 1s";
+            if(toggle_div.style.display==="none"){
+                toggle_div.style.display = "inherit";
+            }
+            else{
+                toggle_div.style.display = "none";
+            }
+        };
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149482020-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-149482020-1');
+    </script>
+
 </head>
 <body>
 <div class="container">
@@ -42,7 +85,7 @@
                     </div>
                     <div class="second_paragh">
                         A Vállalat alaptevékenysége két szegmensre oszlik:
-                        <img src="img/cegfelepites.jpg" alt="Egy kép a cégről">
+                        <img src="img/cegfelepites.jpg" alt="Egy kép a cégről" width="">
 
                     </div>
                     <div class="thrid_paragh">
@@ -67,8 +110,39 @@
             <a href="termekek.html" class="link">Termékek</a>
             <a href="" class="link">Facebook oldalunk</a>
         </div>
-        <script type="text/javascript" src="javascript/smooth_scroll.js"></script>
-        <script type="text/javascript" src="javascript/script.js"></script>
+        <script type="text/javascript" src="javascript/smooth_scroll.js">
+            function enable_smooth_scrolling() {
+                document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                    anchor.addEventListener('click', function (e) {
+                        e.preventDefault();
+
+                        document.querySelector(this.getAttribute('href')).scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    });
+                });
+            }
+            enable_smooth_scrolling();
+        </script>
+        <script type="text/javascript" src="javascript/script.js">
+            function szolgaltatas(erdekel_btn){
+                const data = erdekel_btn.getAttribute("data");
+                const text_field = document.getElementById("bevizsgalas_type");
+                text_field.value = data;
+
+            };
+
+            function toggle_id(id){
+                const toggle_div = document.getElementById(id);
+                toggle_div.style.transition = "all 1s";
+                if(toggle_div.style.display==="none"){
+                    toggle_div.style.display = "inherit";
+                }
+                else{
+                    toggle_div.style.display = "none";
+                }
+            };
+        </script>
     </footer>
 </div>
 </body>
