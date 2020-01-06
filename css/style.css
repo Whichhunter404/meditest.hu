@@ -616,4 +616,5 @@ footer {
   .products_layouts__items__item__info {
     width: 100% !important; }
   .about_us img {
-    width: 100% !important; } }
+    width: 100% !important;
+    max-width: 300px; } }
